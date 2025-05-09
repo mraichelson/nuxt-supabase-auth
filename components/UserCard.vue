@@ -10,7 +10,7 @@ const profile = computed(() => user?.value.user_metadata.avatar_url)
 		<img width="50" height="50" alt="" role="presentation" :src="profile" />
 		<div class="text-right">
 			<div class="font-medium">{{ name }}</div>
-			<button class="text-sm underline text-slate-500">Log out</button>
+			<NuxtLink to="/logout">Logout</NuxtLink>
 		</div>
 	</div>
 </template>
