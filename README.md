@@ -1,6 +1,7 @@
 Manual things...
 
-- Add the resolution for the `cookie` package in `package.json` per the thread [over here for nuxt-modules/supabase#466](https://github.com/nuxt-modules/supabase/issues/466)
+- [This tutorial series](https://masteringnuxt.com/blog/setting-up-supabase-auth-with-nuxt-3) was helpful, but it tries to use a `useSupabaseAuthClient()` composable that doesn't actually exist. Substituting `useSupabaseClient()` instead works as intended.
+- Add the resolution for the `cookie` package in `package.json` per the thread [over here for `nuxt-modules/supabase#466`](https://github.com/nuxt-modules/supabase/issues/466)
 
 <details>
 <summary>Nuxt Minimal Starter</summary>
