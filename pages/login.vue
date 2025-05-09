@@ -2,8 +2,6 @@
 const supabase = useSupabaseClient()
 
 const login = async () => {
-	console.log('LOGIN')
-
 	const { error } = await supabase.auth.signInWithOAuth({
 		provider: 'github',
 	})
