@@ -1,4 +1,9 @@
-# Nuxt Minimal Starter
+Manual things...
+
+- Add the resolution for the `cookie` package in `package.json` per the thread [over here for nuxt-modules/supabase#466](https://github.com/nuxt-modules/supabase/issues/466)
+
+<details>
+<summary>Nuxt Minimal Starter</summary>
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
@@ -71,5 +76,7 @@ yarn preview
 # bun
 bun run preview
 ```
+
+</details>
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.

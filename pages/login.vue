@@ -13,10 +13,13 @@ const login = async () => {
 	}
 }
 </script>
+
 <template>
 	<article>
 		<h1>Login screen</h1>
-
-		<button @click.prevent="login">Login with Github</button>
+		<p>
+			<button @click.prevent="login">Login with Github</button>
+		</p>
+		<UserCard />
 	</article>
 </template>
