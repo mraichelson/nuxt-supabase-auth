@@ -3,9 +3,15 @@
 <template>
 	<article>
 		<h1>Homepage</h1>
-		<p>
-			<NuxtLink to="/login">Login</NuxtLink>
-		</p>
+		<ul>
+			<li><NuxtLink to="/login">Log in</NuxtLink></li>
+			<li>
+				<NuxtLink to="/logout">Log out</NuxtLink>
+			</li>
+			<li>
+				<NuxtLink to="/application">Protected route</NuxtLink>
+			</li>
+		</ul>
 		<UserCard />
 	</article>
 </template>
