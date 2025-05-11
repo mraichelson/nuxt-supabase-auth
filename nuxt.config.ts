@@ -6,4 +6,8 @@ export default defineNuxtConfig({
 	supabase: {
 		redirect: false, // MR: disable auto redirect to login screen
 	},
+	runtimeConfig: {
+		githubToken: process.env.GITHUB_TOKEN,
+		githubOrg: process.env.GITHUB_ORG,
+	},
 })
