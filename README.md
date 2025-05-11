@@ -5,6 +5,13 @@ Manual things...
 - Make sure you set up the hostnames for your website in Supabase!
   - Authentication > URL Configuration: Site URL and Redirect URLs
 
+Values in `.env`
+
+- `SUPABASE_KEY` the key for your supabase instance api access
+- `SUPABASE_URL` the URL for your supabase instance api
+- `GITHUB_TOKEN` a token for the github API
+- `GITHUB_ORG` the name of the org that users must be part of in order to be allowed access
+
 <details>
 <summary>Nuxt Minimal Starter</summary>
 
