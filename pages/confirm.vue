@@ -22,7 +22,7 @@ const validateGithubOrg = async (): boolean => {
 watch(
 	user,
 	async () => {
-		const isValidUser = user?.value ? await validateGithubOrg() : false
+		const isValidUser = await validateGithubOrg()
 
 		if (!isValidUser) {
 			// INVALID USER: send to message page
