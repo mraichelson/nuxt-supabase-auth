@@ -37,8 +37,7 @@ watch(
 		}
 		// VALID USER: redirect to application
 		navigateTo('/application')
-	},
-	{ immediate: true }
+	}
 )
 </script>
 
